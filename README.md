@@ -9,8 +9,8 @@ This repo contains the files and scripts to install macOS on the Lenovo X270 fam
 
 # Laptop's Hardware
 - <b>Model</b>: Thinkpad X270
-- <b>Bios</b>: 1.43
-- <b>CPU</b>: Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz
+- <b>Bios</b>: 1.40
+- <b>CPU</b>: Intel(R) Core(TM) i5-7200U CPU @ 2.40GHz
 - <b>GPU</b>: Intel HD Graphics 520
 - <b>RAM</b>: 16 GB 2400MHz DDR4
 - <b>Screen</b>: 14" FHD (1920x1080) IPS
@@ -35,9 +35,8 @@ This repo contains the files and scripts to install macOS on the Lenovo X270 fam
 - `CSM Support` **No**
 
 # What's Working?
-- [x] Intel HD 520 Graphics (incuding graphics acceleration)
+- [x] Intel HD 620 Graphics (incuding graphics acceleration)
 - [x] CPU Power Management
-- [x] Battery
 - [x] All USB ports
 - [x] HDMI port (including HDMI Audio)
 - [x] Intel Ethernet port
@@ -54,3 +53,4 @@ This repo contains the files and scripts to install macOS on the Lenovo X270 fam
 # What's not working ⚠️
 - [x] Sleep / Wake (lid sleep and lid wake)
 - [x] Trackpoint and physical buttons
+- [x] Battery manager
