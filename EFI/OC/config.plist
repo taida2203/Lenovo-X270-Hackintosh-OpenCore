@@ -14,6 +14,22 @@
 				<key>Path</key>
 				<string>DSDT.aml</string>
 			</dict>
+                <dict>
+                    <key>Comment</key>
+                    <string>SSDT-AC</string>
+                    <key>Path</key>
+                    <string>SSDT-AC.aml</string>
+                    <key>Enabled</key>
+                    <true/>
+                </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string>SSDT-BATX</string>
+                    <key>Path</key>
+                    <string>SSDT-BATX.aml</string>
+                    <key>Enabled</key>
+                    <true/>
+                </dict>
 			<dict>
 				<key>Comment</key>
 				<string>SSDT-CPU.aml</string>
@@ -1229,6 +1245,59 @@
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
+                <dict>
+                    <key>Comment</key>
+                    <string>BATX: Nofify(BAT0, xx) to BATX</string>
+                    <key>Count</key>
+                    <integer>0</integer>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Find</key>
+                    <data>hkJBVDA=</data>
+                    <key>Limit</key>
+                    <integer>0</integer>
+                    <key>Mask</key>
+                    <data></data>
+                    <key>OemTableId</key>
+                    <data></data>
+                    <key>Replace</key>
+                    <data>hkJBVFg=</data>
+                    <key>ReplaceMask</key>
+                    <data></data>
+                    <key>Skip</key>
+                    <integer>0</integer>
+                    <key>TableLength</key>
+                    <integer>0</integer>
+                    <key>TableSignature</key>
+                    <data>RFNEVA==</data>
+                </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string>BATX: Nofify(BAT1, xx) to BATX</string>
+                    <key>Count</key>
+                    <integer>0</integer>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Find</key>
+                    <data>hkJBVDE=</data>
+                    <key>Limit</key>
+                    <integer>0</integer>
+                    <key>Mask</key>
+                    <data></data>
+                    <key>OemTableId</key>
+                    <data></data>
+                    <key>Replace</key>
+                    <data>hkJBVFg=</data>
+                    <key>ReplaceMask</key>
+                    <data></data>
+                    <key>Skip</key>
+                    <integer>0</integer>
+                    <key>TableLength</key>
+                    <integer>0</integer>
+                    <key>TableSignature</key>
+                    <data>RFNEVA==</data>
+                </dict>
+			
 		</array>
 		<key>Quirks</key>
 		<dict>
