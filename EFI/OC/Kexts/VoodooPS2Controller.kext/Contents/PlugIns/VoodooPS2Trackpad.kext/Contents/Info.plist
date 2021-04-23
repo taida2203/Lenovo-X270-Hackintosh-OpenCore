@@ -342,7 +342,7 @@
 						<key>TrackpadEmbedded</key>
 						<true/>
 						<key>TrackpadFourFingerGestures</key>
-						<true/>
+						<false/>
 						<key>TrackpadSecondaryClickCorners</key>
 						<true/>
 						<key>TrackpadThreeFingerDrag</key>
