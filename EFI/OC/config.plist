@@ -330,13 +330,13 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>change Notify(\_SB.BAT0 to Notify(_SB.BATC</string>
+				<string>SLEEP: GPRW(2, N) to ZRPW</string>
 				<key>Count</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>hlwuX1NCX0JBVDA=</data>
+				<data>R1BSVwI=</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
@@ -344,7 +344,7 @@
 				<key>OemTableId</key>
 				<data></data>
 				<key>Replace</key>
-				<data>hlwuX1NCX0JBVEM=</data>
+				<data>WlBSVwI=</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -352,17 +352,17 @@
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>RFNEVA==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>change Notify(\_SB.BAT1 to Notify(_SB.BATC</string>
+				<string>SLEEP: _WAK(1,S) to ZWAK</string>
 				<key>Count</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>hlwuX1NCX0JBVDE=</data>
+				<data>X1dBSwk=</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
@@ -370,7 +370,7 @@
 				<key>OemTableId</key>
 				<data></data>
 				<key>Replace</key>
-				<data>hlwuX1NCX0JBVEM=</data>
+				<data>WldBSwk=</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -378,13 +378,39 @@
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>RFNEVA==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>change Notify(BAT0 to Notify(BATC</string>
+				<string>SLEEP: _PTS to ZPTS</string>
 				<key>Count</key>
-				<integer>1</integer>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>X1BUUw==</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>Replace</key>
+				<data>WlBUUw==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>RFNEVA==</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>BATX: BAT0 to BATX</string>
+				<key>Count</key>
+				<integer>0</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
@@ -396,7 +422,7 @@
 				<key>OemTableId</key>
 				<data></data>
 				<key>Replace</key>
-				<data>hkJBVEM=</data>
+				<data>hkJBVFg=</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -404,33 +430,7 @@
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>change Notify(BAT1 to Notify(BATC</string>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>hkJBVDE=</data>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>OemTableId</key>
-				<data></data>
-				<key>Replace</key>
-				<data>hkJBVEM=</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data></data>
+				<data>RFNEVA==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -1291,110 +1291,6 @@
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
-            <dict>
-                <key>Comment</key>
-                <string>BATX: Nofify(BAT0, xx) to BATX</string>
-                <key>Count</key>
-                <integer>0</integer>
-                <key>Enabled</key>
-                <true/>
-                <key>Find</key>
-                <data>hkJBVDA=</data>
-                <key>Limit</key>
-                <integer>0</integer>
-                <key>Mask</key>
-                <data></data>
-                <key>OemTableId</key>
-                <data></data>
-                <key>Replace</key>
-                <data>hkJBVFg=</data>
-                <key>ReplaceMask</key>
-                <data></data>
-                <key>Skip</key>
-                <integer>0</integer>
-                <key>TableLength</key>
-                <integer>0</integer>
-                <key>TableSignature</key>
-                <data>RFNEVA==</data>
-            </dict>
-            <dict>
-                <key>Comment</key>
-                <string>BATX: Nofify(BAT1, xx) to BATX</string>
-                <key>Count</key>
-                <integer>0</integer>
-                <key>Enabled</key>
-                <true/>
-                <key>Find</key>
-                <data>hkJBVDE=</data>
-                <key>Limit</key>
-                <integer>0</integer>
-                <key>Mask</key>
-                <data></data>
-                <key>OemTableId</key>
-                <data></data>
-                <key>Replace</key>
-                <data>hkJBVFg=</data>
-                <key>ReplaceMask</key>
-                <data></data>
-                <key>Skip</key>
-                <integer>0</integer>
-                <key>TableLength</key>
-                <integer>0</integer>
-                <key>TableSignature</key>
-                <data>RFNEVA==</data>
-            </dict>
-			<dict>
-                <key>Comment</key>
-                <string>SLEEP: GRPW(2,N) to ZRPW</string>
-                <key>Count</key>
-                <integer>0</integer>
-                <key>Enabled</key>
-                <true/>
-                <key>Find</key>
-                <data>BkdQUlcCcA==</data>
-                <key>Limit</key>
-                <integer>0</integer>
-                <key>Mask</key>
-                <data></data>
-                <key>OemTableId</key>
-                <data></data>
-                <key>Replace</key>
-                <data>BlpQUlcCcA==</data>
-                <key>ReplaceMask</key>
-                <data></data>
-                <key>Skip</key>
-                <integer>0</integer>
-                <key>TableLength</key>
-                <integer>0</integer>
-                <key>TableSignature</key>
-                <data>RFNEVA==</data>
-            </dict>
-            <dict>
-                <key>Comment</key>
-                <string>SLEEP: _WAK(1,S) to ZWAK</string>
-                <key>Count</key>
-                <integer>0</integer>
-                <key>Enabled</key>
-                <true/>
-                <key>Find</key>
-                <data>X1dBSwk=</data>
-                <key>Limit</key>
-                <integer>0</integer>
-                <key>Mask</key>
-                <data></data>
-                <key>OemTableId</key>
-                <data></data>
-                <key>Replace</key>
-                <data>WldBSwk=</data>
-                <key>ReplaceMask</key>
-                <data></data>
-                <key>Skip</key>
-                <integer>0</integer>
-                <key>TableLength</key>
-                <integer>0</integer>
-                <key>TableSignature</key>
-                <data>RFNEVA==</data>
-            </dict>
 		</array>
 		<key>Quirks</key>
 		<dict>
